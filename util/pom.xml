@@ -1,0 +1,24 @@
+    <project>
+      	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.inventateq.Batch1</groupId>
+		<artifactId>DemoProject</artifactId>
+		<version>2.0</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
+
+      	<artifactId>util</artifactId>
+	<groupId>com.inventateq.Batch1</groupId>
+	<version>1.0</version>
+
+
+    </project>
+
+  <build>
+    <directory>target</directory>
+    <outputDirectory>target/classes</outputDirectory>
+    <finalName>${artifactId}-${version}</finalName>
+    <testOutputDirectory>target/test-classes</testOutputDirectory>
+    <sourceDirectory>src/main/java</sourceDirectory>
+    <scriptSourceDirectory>src/main/scripts</scriptSourceDirectory>
+  </build>

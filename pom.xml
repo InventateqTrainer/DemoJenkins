@@ -1,0 +1,23 @@
+    <project>
+	<groupId>com.inventateq.Batch1</groupId>
+	<artifactId>DemoProject</artifactId>
+	<version>2.0</version>
+      	<modelVersion>4.0.0</modelVersion>
+	<packaging>pom</packaging>
+
+<modules>
+	<module>app</module>
+	<module>util</module>
+</modules>
+</project>
+
+  <build>
+    <directory>target</directory>
+    <outputDirectory>target/classes</outputDirectory>
+    <finalName>${artifactId}-${version}</finalName>
+    <testOutputDirectory>target/test-classes</testOutputDirectory>
+    <sourceDirectory>src/main/java</sourceDirectory>
+    <scriptSourceDirectory>src/main/scripts</scriptSourceDirectory>
+
+  </build>
+
